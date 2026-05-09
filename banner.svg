@@ -1,0 +1,108 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="800" height="160" fill="#080818"/>
+
+  <!-- Subtle grid noise -->
+  <rect width="800" height="160" fill="url(#grid)" opacity="0.04"/>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#a990ff" stroke-width="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Decorative pixel dots -->
+  <rect x="372" y="18" width="3" height="3" fill="#ff2d78" opacity="0.7"/>
+  <rect x="388" y="10" width="2" height="2" fill="#a990ff" opacity="0.5"/>
+  <rect x="358" y="138" width="2" height="2" fill="#ff2d78" opacity="0.4"/>
+  <rect x="770" y="108" width="3" height="3" fill="#a990ff" opacity="0.5"/>
+  <rect x="748" y="22" width="2" height="2" fill="#ff2d78" opacity="0.45"/>
+  <rect x="395" y="60" width="2" height="2" fill="#6e5af0" opacity="0.5"/>
+
+  <!-- Plus signs -->
+  <text x="376" y="52" font-family="Courier New, monospace" font-size="10" fill="#ff2d78" opacity="0.35">+</text>
+  <text x="755" y="50" font-family="Courier New, monospace" font-size="10" fill="#a990ff" opacity="0.3">+</text>
+
+  <!-- Corner brackets — left -->
+  <path d="M8,8 L8,26 M8,8 L26,8" stroke="#ff2d78" stroke-width="2" fill="none"/>
+  <path d="M8,152 L8,134 M8,152 L26,152" stroke="#ff2d78" stroke-width="2" fill="none"/>
+
+  <!-- Corner brackets — mid divider area -->
+  <path d="M363,8 L363,20 M363,8 L377,8" stroke="#6e5af0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M363,152 L363,140 M363,152 L377,152" stroke="#6e5af0" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Vertical divider -->
+  <line x1="390" y1="15" x2="390" y2="145" stroke="#2a2a55" stroke-width="1"/>
+
+  <!-- Corner brackets — right -->
+  <path d="M792,8 L792,22 M792,8 L778,8" stroke="#6e5af0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M792,152 L792,138 M792,152 L778,152" stroke="#6e5af0" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- ── LEFT SECTION ── -->
+
+  <!-- Top label -->
+  <text x="20" y="30" font-family="Courier New, monospace" font-size="8" fill="#ff2d78" letter-spacing="2.8" font-weight="bold">// DATA ANALYTICS &amp; INTELLIGENCE</text>
+
+  <!-- MALAK — glitch layers -->
+  <text x="18" y="94" font-family="Courier New, monospace" font-size="52" fill="#6e5af0" letter-spacing="10" font-weight="bold" opacity="0.55">MALAK</text>
+  <text x="22" y="92" font-family="Courier New, monospace" font-size="52" fill="#ff2d78" letter-spacing="10" font-weight="bold" opacity="0.4">MALAK</text>
+  <text x="20" y="93" font-family="Courier New, monospace" font-size="52" fill="#f0f0ff" letter-spacing="10" font-weight="bold">MALAK</text>
+
+  <!-- Subtitle line -->
+  <text x="22" y="114" font-family="Courier New, monospace" font-size="9" fill="#7777aa" letter-spacing="1.5">Data Analyst  ·  Python  ·  SQL  ·  Power BI  ·  Excel</text>
+
+  <!-- Skill badges -->
+  <!-- Python -->
+  <rect x="20" y="126" width="50" height="15" rx="2" fill="#ff2d78" opacity="0.12"/>
+  <rect x="20" y="126" width="50" height="15" rx="2" fill="none" stroke="#ff2d78" stroke-width="0.8"/>
+  <text x="45" y="137.5" font-family="Courier New, monospace" font-size="7.5" fill="#ff6aab" text-anchor="middle" letter-spacing="0.3">Python</text>
+
+  <!-- SQL -->
+  <rect x="74" y="126" width="34" height="15" rx="2" fill="#ff2d78" opacity="0.12"/>
+  <rect x="74" y="126" width="34" height="15" rx="2" fill="none" stroke="#ff2d78" stroke-width="0.8"/>
+  <text x="91" y="137.5" font-family="Courier New, monospace" font-size="7.5" fill="#ff6aab" text-anchor="middle" letter-spacing="0.3">SQL</text>
+
+  <!-- Power BI -->
+  <rect x="112" y="126" width="58" height="15" rx="2" fill="#a990ff" opacity="0.12"/>
+  <rect x="112" y="126" width="58" height="15" rx="2" fill="none" stroke="#a990ff" stroke-width="0.8"/>
+  <text x="141" y="137.5" font-family="Courier New, monospace" font-size="7.5" fill="#c4b0ff" text-anchor="middle" letter-spacing="0.3">Power BI</text>
+
+  <!-- Excel -->
+  <rect x="174" y="126" width="40" height="15" rx="2" fill="#a990ff" opacity="0.12"/>
+  <rect x="174" y="126" width="40" height="15" rx="2" fill="none" stroke="#a990ff" stroke-width="0.8"/>
+  <text x="194" y="137.5" font-family="Courier New, monospace" font-size="7.5" fill="#c4b0ff" text-anchor="middle" letter-spacing="0.3">Excel</text>
+
+  <!-- ML · Analytics -->
+  <rect x="218" y="126" width="84" height="15" rx="2" fill="#6e5af0" opacity="0.12"/>
+  <rect x="218" y="126" width="84" height="15" rx="2" fill="none" stroke="#6e5af0" stroke-width="0.8"/>
+  <text x="260" y="137.5" font-family="Courier New, monospace" font-size="7.5" fill="#9b8eff" text-anchor="middle" letter-spacing="0.3">ML · Analytics</text>
+
+  <!-- ── RIGHT SECTION — bar chart ── -->
+
+  <!-- Chart baseline -->
+  <line x1="405" y1="135" x2="785" y2="135" stroke="#2a2a55" stroke-width="1"/>
+
+  <!-- Bars: alternating pink / purple -->
+  <rect x="415" y="52"  width="30" height="83" fill="#ff2d78" opacity="0.82" rx="1"/>
+  <rect x="458" y="78"  width="30" height="57" fill="#7c5cbf" opacity="0.82" rx="1"/>
+  <rect x="501" y="98"  width="30" height="37" fill="#ff6aab" opacity="0.75" rx="1"/>
+  <rect x="544" y="38"  width="30" height="97" fill="#6e5af0" opacity="0.85" rx="1"/>
+  <rect x="587" y="62"  width="30" height="73" fill="#ff2d78" opacity="0.78" rx="1"/>
+  <rect x="630" y="82"  width="30" height="53" fill="#9b8eff" opacity="0.80" rx="1"/>
+  <rect x="673" y="93"  width="30" height="42" fill="#7c9fff" opacity="0.75" rx="1"/>
+
+  <!-- Line chart overlay -->
+  <polyline
+    points="430,52 473,78 516,98 559,38 602,62 645,82 688,93"
+    stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.25" stroke-dasharray="4,3"/>
+
+  <!-- Dots on line -->
+  <circle cx="430" cy="52" r="3" fill="#ffffff" opacity="0.45"/>
+  <circle cx="473" cy="78" r="3" fill="#ffffff" opacity="0.45"/>
+  <circle cx="516" cy="98" r="3" fill="#ffffff" opacity="0.45"/>
+  <circle cx="559" cy="38" r="3" fill="#ffffff" opacity="0.45"/>
+  <circle cx="602" cy="62" r="3" fill="#ffffff" opacity="0.45"/>
+  <circle cx="645" cy="82" r="3" fill="#ffffff" opacity="0.45"/>
+  <circle cx="688" cy="93" r="3" fill="#ffffff" opacity="0.45"/>
+
+</svg>
